@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Basis Grotesque Pro';
+    src: url(../fonts/BasisGrotesquePro-Regular.woff2) format('woff2'),
+         url(../fonts/BasisGrotesquePro-Regular.woff) format('woff'),
+         url(../fonts/BasisGrotesquePro-Regular.otf) format('opentype');
+         font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Pro';
+    src: url(../fonts/BasisGrotesquePro-Bold.woff2) format('woff2'),
+         url(../fonts/BasisGrotesquePro-Bold.woff) format('woff'),
+         url(../fonts/BasisGrotesquePro-Bold.eot) format('opentype');
+         font-weight: 700;
+         font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Pro';
+    src: url(../fonts/BasisGrotesquePro-Light.woff2) format('woff2'),
+         url(../fonts/BasisGrotesquePro-Light.woff) format('woff'),
+         url(../fonts/BasisGrotesquePro-Light.eot) format('opentype');
+         font-weight: 300;
+         font-display: fallback;
+}
+
+body {
+    font-family: 'Basis Grotesque Pro', 'Raleway', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    width: 100%;
+    background: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-half {
+    width: 50%;
+}
+
+.section {
+    padding: 150px 0; 
+}
+
+.invest-header {
+    margin-left: 14.583%;
+    margin-bottom: 70px;
+}
+
+.left-side {
+    margin-left: 29.166%;
+}
+
+.section-tag {
+    color: #0536FC;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 2.375em;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.small-heading {
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.form-item__radiobutton {
+    margin-right: 15px;
+}
+
+.form-item__label {
+    margin-right: 30px;
+    opacity: 0.6;
+}
+
+.pay-system {
+    margin-bottom: 48px;
+}
+
+.pay-system__item--last {
+    display: inline-block;
+}
+
+.money {
+    margin-bottom: 48px;
+}
+
+.money__heading {
+    margin-bottom: 30px;
+}
+
+.sum {
+    margin-bottom: 20px;
+}
+
+
+.choose-sum {
+    width: 100%;
+    max-width: 640px;
+}
+
+.choose-sum__radiobutton {
+    display: none;
+}
+
+.choose-sum__radiobutton1:checked ~ .choose-sum__label1 {
+    background-color: #0536FC;
+    color: white;
+}
+
+.choose-sum__radiobutton2:checked ~ .choose-sum__label2 {
+    background-color: #0536FC;
+    color: white;
+}
+
+.choose-sum__radiobutton3:checked ~ .choose-sum__label3 {
+    background-color: #0536FC;
+    color: white;
+}
+
+.choose-sum__radiobutton4:checked ~ .choose-sum__label4 {
+    background-color: #0536FC;
+    color: white;
+}
+
+.choose-sum__label {
+    width: 25%;    
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 0px; 
+    border-collapse: collapse;    
+}
+
+.choose-sum__label--last {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.enter-sum {
+    width: 100%;
+    max-width: 638px;
+}
+
+.enter-sum__input {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+}
+
+.enter-sum__input::placeholder {
+    opacity: 0.35;    
+    padding-left: 35px;
+}
+
+.form-type {
+    margin-bottom: 30px;
+}
+
+.form-type__label {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.form-type__box {
+    width: 100%;
+    max-width: 478px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    opacity: 0.35;
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+.form-check {
+    margin-bottom: 16px;
+}
+
+.form__tick {
+    margin-right: 15px;
+}
+
+.opacity-60 {
+    opacity: 0.6;
+    margin-right: 6px;
+}
+
+.blue-link {
+    opacity: 1;
+    text-decoration: none;
+    color: #0536FC;
+}
+
+.blue-link {
+    color: #0536FC;
+}
+
+button {
+    margin: 0;
+    margin-top: 32px;
+    padding: 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: #0536FC;
+    width: 213px;
+    text-align:center;
+    padding: 16px 0;
+    color: white;
+    text-transform: uppercase;
+}
